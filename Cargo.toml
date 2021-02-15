@@ -1,0 +1,11 @@
+[package]
+name = "web_server"
+version = "0.1.0"
+authors = ["M. Daley <mdaley115@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "thread_pool"
+path = "src/lib.rs"
+
+[dependencies]
